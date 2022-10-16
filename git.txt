@@ -1,0 +1,24 @@
+1.1
+
+>cd var/www/projects
+>git clone https://github.com/owner/project_one.git .
+
+1.2
+
+>git -C ./var/www/projects clone https://github.com/owner/project_one.git
+
+2.
+
+>git cherry-pick 63162ea -e "Измененное сообщение"
+
+3. 
+
+>git stash save "Наработки"
+
+4.
+
+>git merge otherFeature 
+
+5.
+
+>git checkout -- filename
